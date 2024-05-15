@@ -1,7 +1,7 @@
-variable "nginx_server_ip" {
-  description = "Enter the ip address of nginx server"
-  type        = string
-}
+# variable "nginx_server_ip" {
+#   description = "Enter the ip address of nginx server"
+#   type        = string
+# }
 
 variable "sub_domain_name" {
   description = "Enter the your desired subdomain add, Will produce <subdomain>.weberp.xcelpros.com"
