@@ -9,5 +9,5 @@ resource "aws_route53_record" "a_record" {
   name    = var.sub_domain_name
   type    = "A"
   ttl     = "300"
-  records = [var.nginx_server_ip]
+  records = ["20.118.207.176"]
 }
